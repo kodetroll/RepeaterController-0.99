@@ -28,6 +28,18 @@
  * This code is for educational or personal use only
  *
  */
+ 
+/*
+ * Note: The Arduino Time Libnrary is required, it can be found at
+ * http://playground.arduino.cc/Code/Time See the Arduino website:
+ * http://arduino.cc/en/Guide/Libraries for info on how to import
+ * libraries.
+ *
+ * Please note that this library will only work as-is with pre-1.5.7
+ * versions of the Arduino IDE, because it uses PROGMEM. Current 
+ * versions of the Arduino IDE (1.5.7 and later) require type 
+ * declarations involving PROGMEM to be 'const'
+ */
 #include <Time.h>
 //#include "pitches.h"
 

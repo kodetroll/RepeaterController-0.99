@@ -12,6 +12,15 @@ logic input and output. See the readme.txt for more details.
 
 Thats all...~Steve>, KB4OID (kb4oid@kb4oid.org)
 
+Notes:
+This sketch requires the Arduino Time Library, available from:
+
+http://playground.arduino.cc/Code/Time
+
+This library (as does any using PROGMEM) will only work with pre-1.5.7 
+versions of the Arduino IDE. This is due to the requirement that current
+versions of the IDE enforce PROGMEM type declarations to be const.
+
 License Info: 
 This code (C) 2012 KB4OID Labs - A division of Kodetroll Heavy Industries 
 All rights reserved, but otherwise free to use for personal use. 
